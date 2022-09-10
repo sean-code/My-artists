@@ -5,9 +5,8 @@
 
 /* Nav Bar */
 nav{
-    margin: 2vh 2vh 0vh 1vh; 
-    padding: 2vh 2vh 0vh 2vh;
-    background-color: rgb(34, 70, 10);
+    padding: 1vh 2vh 0vh 2vh;
+    background-color: rgb(30, 75, 0);
     color: orange;
     font-size: large;
 }
@@ -16,7 +15,13 @@ nav{
     display: inline-block;
     justify-content:space-between;
     padding: 10px 20px 10px 20px;
-    /* margin: 5px 20px 0px 10px; */
+    margin: 1px 10px 0px 15px;
+    list-style: none;
+}
+#navigation li a{
+    text-decoration: none;
+    color: orange;
+    font-size: larger;
 }
 #navigation img{
     height: 80px;
@@ -24,7 +29,8 @@ nav{
 
 /* PAGE 1 */
 #artist-1 {
-    background-image: url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background: rgba(0, 0, 0, 0.6) url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background-blend-mode: darken;
     margin: 0px 2px 0px 2px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,12 +41,12 @@ nav{
     height: 500px;
     padding:5% 2% 4% 2%;
     display: block;
-    margin-left: 60%;
+    margin-left: 65%;
     position: relative;
     border-radius: 20%;
 }
 .quote h1{
-    color: white;
+    color: orange;
     position: absolute; 
     top: 50%;
 }
@@ -48,20 +54,13 @@ nav{
     position: absolute;
     color: white;
     top:60%;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
-/* .quote{  
-    position: absolute;
-    bottom: 40%;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-} */
 /* PAGE 2 */
 #artist-2 {
-    background-image: url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background: rgba(0, 0, 0, 0.6) url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background-blend-mode: darken;
     margin: 0px 2px 0px 2px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,19 +68,27 @@ nav{
 }
 #artist-2 img{
     height: 500px;
-    padding:1% 2% 1% 2%;
-    margin-left: 45%;
+    padding:1% 2% 8% 2%;
+    margin-left: 65%;
+    border-radius: 20%;
 }
-#artist-2 h1{
+.quote-2 h1{
+    color: orange;
+    position: absolute; 
+    top: 150%;
+}
+.quote-2 p{
+    position: absolute;
     color: white;
-    display: inline-flex;
-    padding-top: 10%;
+    top:160%;
+    font-size: xx-large;
 }
 
 
 /* PAGE 3 */
 #artist-3 {
-    background-image: url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background: rgba(0, 0, 0, 0.6) url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background-blend-mode: darken;
     margin: 0px 2px 0px 2px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,18 +96,25 @@ nav{
 }
 #artist-3 img{
     height: 500px;
-    padding:1% 2% 1% 2%;
-    margin-left: 53%;
+    padding:2% 2% 5% 2%;
+    margin-left: 65%;
+    border-radius: 20%;
 }
-#artist-3 h1{
+.quote-3 h1{
+    color: orange;
+    position: absolute; 
+    top: 280%;
+}
+.quote-3 p{
+    position: absolute;
     color: white;
-    display: inline-flex;
-    padding-top: 10%;
+    top:290%;
+    font-size: xx-large;
 }
-
 /* PAGE 4 */
 #artist-4 {
-    background-image: url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background: rgba(0, 0, 0, 0.6) url('https://media.istockphoto.com/photos/dark-blue-de-focused-blurred-motion-abstract-background-picture-id1216628493?b=1&k=20&m=1216628493&s=170667a&w=0&h=XgGPQTxjdXuWOVHtTPo-zZziQG-qffO5_K4dppHpccI=');
+    background-blend-mode: darken;
     margin: 0px 2px 0px 2px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,11 +122,18 @@ nav{
 }
 #artist-4 img{
     height: 500px;
-    padding:1% 2% 1% 2%;
-    margin-left: 50%;
+    padding:1% 2% 5% 2%;
+    margin-left: 65%;
+    border-radius: 20%;
 }
-#artist-4 h1{
+.quote-4 h1{
+    color: orange;
+    position: absolute; 
+    top: 380%;
+}
+.quote-4 p{
+    position: absolute;
     color: white;
-    display: inline-flex;
-    padding-top: 10%;
+    top: 390%;
+    font-size: xx-large;
 }
