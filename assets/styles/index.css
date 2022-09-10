@@ -103,12 +103,12 @@ nav{
 .quote-3 h1{
     color: orange;
     position: absolute; 
-    top: 280%;
+    top: 240%;
 }
 .quote-3 p{
     position: absolute;
     color: white;
-    top:290%;
+    top:250%;
     font-size: xx-large;
 }
 /* PAGE 4 */
@@ -129,12 +129,12 @@ nav{
 .quote-4 h1{
     color: orange;
     position: absolute; 
-    top: 380%;
+    top: 300%;
 }
 .quote-4 p{
     position: absolute;
     color: white;
-    top: 390%;
+    top: 310%;
     font-size: xx-large;
     margin-bottom: 10%;
 }
